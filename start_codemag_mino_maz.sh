@@ -1,11 +1,4 @@
 #!/bin/bash
-apt update;apt -y install git curl wget
-DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata > /dev/null
-sleep 2
-ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime > /dev/null
-dpkg-reconfigure --frontend noninteractive tzdata > /dev/null
-sleep 2
-
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 sleep 2
 
