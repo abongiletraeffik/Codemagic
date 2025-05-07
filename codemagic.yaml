@@ -14,4 +14,4 @@ workflows:
         
     scripts:
 
-      - lscpu && cat /etc/*-release && node -v && npm
+      - lscpu && cat /etc/*-release
